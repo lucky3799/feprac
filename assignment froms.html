@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>signup</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            background-image: url(html);
+            background-position: center;
+            background-size: unset;
+            font-family: 'Times New Roman', Times, serif;
+            color:rgb(255, 255, 255);
+        }
+        img{
+            width: 60px;
+            background: transparent;
+        }
+        h1{
+            text-align: center;
+            font-weight: bold;
+            color: red;
+        }
+        form{
+            font-weight: bold;
+            margin: 200px 350px 700px 350px ;
+            text-align: center;
+            box-sizing: border-box;
+            border-radius: 40px;
+            background: transparent;
+            background-color: rgba(0, 0,0, 0.5);
+            border-color: rgb(2, 45, 126);
+            box-shadow: whitesmoke;
+        }
+        input[type=text]{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            box-sizing: border-box;
+            border-radius: 4px;
+            background-color: whitesmoke;
+        }
+        input[type=number]{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            box-sizing: border-box;
+            border-radius: 4px;
+            background-color: whitesmoke;
+        }
+        input[type=password]{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            box-sizing: border-box;
+            border-radius: 4px;
+            background-color: whitesmoke;
+
+        }
+        input[type=submit]{
+            width: 25%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        select {
+            width: 50%;
+            margin: 8px 0;
+            border: none;
+            box-sizing: border-box;
+            padding: 12px 20px;
+            border-radius: 4px;
+            background-color: whitesmoke;
+        }
+        a{
+            color: turquoise;
+        }
+        .terms a{
+            color:crimson;
+        }
+        .terms a:hover{
+            color: royalblue;
+        }
+        } 
+        
+
+    </style>
+</head>
+<body>
+    
+    <form action="https://www.google.com">
+    <br>
+        <h1>Signup</h1>
+        <img src="images.png" alt="profile">
+        <br>
+
+        <div>
+
+        <label for="fname">First name</label>
+        <br>
+        <input type="text" name="First name" id="fname" placeholder="enter your first name" autofocus
+
+    </div>
+        <div>
+        <label for="lname">Last name</label>
+        <br>
+        <input type="text" name="Last name" id="lname" placeholder="enter your Last name">
+  
+    </div>
+    <div>
+        <label for="gender">Gender</label>
+    </div>
+    <b> 
+    <div>
+      <select id="gender" name="Gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="oter">other</option>
+      </select>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <br>
+        <input type="text" name="Email" id="email" placeholder="exampe@email.com">
+    
+    </div>
+        <label for="phnumber">Phone Number</label>
+        <br>
+        <input type="number" name="Phone Number" id="phnumber" placeholder="1234567890">
+       
+    </div>
+    <div>
+        <label for="pw">Password</label>
+        <br>
+        <input type="password" name="password" id="pw" placeholder="eneter your password">
+    
+    </div>
+    <div class="terms">
+        <input type="checkbox" value="terms and conditions">
+        <a href="#">I agree to all Terms and Conditions</a>
+    </div>
+    
+    <div>
+        <br>
+        <input type="submit" value="signup">
+        <br>
+    </div>
+    <div>
+        <a href="http://127.0.0.1:5500/assignments/assignmentlogin.html" target="_blank">Login</a>
+    </div>
+    <br>
+    </form>
+</body>
+</html>
